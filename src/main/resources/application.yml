@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: demo-Many-To_Many
+  jpa:
+    show-sql: true
+    database: postgresql
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+  datasource:
+    password: 12345
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/postgres
